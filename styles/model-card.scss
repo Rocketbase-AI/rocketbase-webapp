@@ -1,0 +1,115 @@
+.model-card {
+	position: relative;
+	width: 14em;
+	height: 6em;
+
+	margin: 1.2rem;
+}
+
+.model-card-title {
+	/* ModelName */
+	
+	position: absolute;
+	width: 50%;
+	height: 1.5em;
+	left: 0.5em;
+	top: 0.5em;
+	
+/*	font-family: Roboto;
+*/	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #5137AD;
+}
+
+.model-card-publication-date {
+	/* PublicationDate */
+	
+	position: absolute;
+	width: 8em;
+	height: 1em;
+	right: 1em;
+	top: 1em;
+	
+	font-style: normal;
+	font-weight: 300;
+	font-size: 0.65em;
+	line-height: 0.75em;
+	text-align: right;
+	
+	color: #6C4DCC;
+}
+
+.model-card-paper-link {
+	/* PaperLink */
+
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 7px;
+	top: 30px;
+
+	color: black;
+	z-index: 2;
+}
+
+.model-card-repo-link {
+	/* RepoLink */
+
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 36px;
+	top: 30px;
+
+	color: black;
+}
+
+.model-card-training-logo {
+	/* weightlifting */
+	
+	position: absolute;
+	width: 16px;
+	height: 17.2px;
+	left: 7px;
+	top: 64px;
+}
+
+.model-card-training-title {
+	/* TrainSetName */
+	
+	position: absolute;
+	width: 55px;
+	height: 18.21px;
+	left: 35px;
+	top: 64px;
+	
+/*	font-family: Roboto;
+*/	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 12px;
+	display: flex;
+	align-items: center;
+	
+	color: #6C4DCC;
+}
+
+.model-card-task-title {
+	/* TaskTitle */
+	
+	position: absolute;
+	width: 50%;
+	height: 1em;
+	right: 1em;
+	bottom: 1em;
+	
+	font-weight: 300;
+	font-size: 0.5em;
+	line-height: 0.75em;
+	text-align: right;
+	
+	color: #69728C;
+}
