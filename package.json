@@ -1,6 +1,6 @@
 {
   "name": "rocketbase-webapp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "RocketBase web application",
   "engines": {
     "node": "10"
@@ -9,11 +9,13 @@
     "dev": "nodemon",
     "build": "next build && tsc && tsc --project tsconfig.server.json",
     "start": "node .next/server",
-    "serve": "npm run build && NODE_ENV=production node .next/server"
+    "serve": "npm run build && NODE_ENV=production node .next/server",
+    "deploy": "gcloud app deploy --project=rockethub"
   },
   "private": true,
   "keywords": [
-    "firebase",
+    "frontend",
+    "react",
     "next",
     "typescript"
   ],
